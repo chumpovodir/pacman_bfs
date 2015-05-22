@@ -2,13 +2,21 @@
 #include <vector>
 using namespace std;
 
+struct node
+{
+    int data;
+    struct node* left;
+    struct node* right;
+};
+
+//-------------------------------------------------------------------------
+
 void nextMove( int r, int c, int pacman_r, int pacman_c, int food_r, int food_c, vector <string> grid){
-    
-    vector<int> visited;
-    
-        
-    
+
 }
+
+//-------------------------------------------------------------------------
+
 int main(void) {
 
     int r,c, pacman_r, pacman_c, food_r, food_c;
